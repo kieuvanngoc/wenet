@@ -13,7 +13,6 @@ if (is_array($permission)) {
 		}
 	}
 }
-
 // ASSIGN ALL SMARTY VARIABLES/OBJECTS AND DISPLAY PAGE
 $smarty->assign('PG_URL_HOMEPAGE', PG_URL_HOMEPAGE);
 $smarty->assign('PG_URL_ROOT', PG_URL_ROOT);
