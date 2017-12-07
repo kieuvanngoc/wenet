@@ -1,0 +1,33 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2009 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 212 2009-09-03 05:33:44Z emartin24 $
+ *
+ */
+
+/* Overlay add link for menu*/
+#ovl-add-cate-formenu {display:none;}
+#ovl-setting-cate-formenu {display:none;}
+#ovl-choice-cate {display:none;}
+#ovl-upload-images {display:none;}
+#ovl-images-library {display:none;}
+#ovl-edit-images-library {display:none;}
+#ovl-choice-cate-faq {display:none;}
+#ovl-view-banner {display:none;}
+
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {height:320px; width:620px; color:#000; background-color:#FFF; border:4px solid #ccc; padding:12px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; margin-bottom:12px; padding:4px 6px 6px;}
+/*#simplemodal-container a {color:#ddd;}*/
+#simplemodal-container a {color:#003399;}
+#simplemodal-container a.modalCloseImg {background:url(../images/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container #ovl-add-cate-formenu #ovl-setting-cate-formenu #ovl-choice-cate #ovl-upload-images #ovl-images-library #ovl-edit-images-library #ovl-choice-cate-faq #ovl-view-banner {padding:8px;}

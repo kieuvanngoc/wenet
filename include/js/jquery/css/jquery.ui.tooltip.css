@@ -1,0 +1,142 @@
+/* Tooltip
+----------------------------------*/
+.ui-tooltip {
+	padding:8px;
+	width:230px;
+	position:absolute;
+	z-index:9999;
+	-o-box-shadow: 0 0 5px #aaa;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+/* Fades and background-images don't work well together in IE6, drop the image */
+* html .ui-tooltip {
+	background-image: none;
+}
+body .ui-tooltip { border-width:2px; }
+
+.ui-tooltip-content{
+	font-size: 8pt;
+}
+.ui-tooltip-pointer{	
+	border: 1px solid #fff;
+}
+.ui-tooltip-pointer, .ui-tooltip-pointer-inner{	
+	background:none repeat scroll 0 0 transparent;
+	height:0;
+	position:absolute;
+	width:0;
+}
+.ui-tooltip-pointer-edge-top{
+	border-bottom-width: 14px;
+	border-top-width: 0;
+	top: -14px;
+}
+.ui-tooltip-pointer-edge-right {
+	border-right-width:0;
+	border-left-width:14px;
+	right:-14px;
+}
+.ui-tooltip-pointer-edge-bottom{	
+	border-top-width: 14px;
+	border-bottom-width: 0;
+	bottom:	-14px;
+}
+.ui-tooltip-pointer-edge-left {
+	border-left-width:0;
+	border-right-width:14px;
+	left:-14px;
+}
+.ui-tooltip-pointer-align-left{	
+	border-left: 0; 
+	border-right: 17px dotted transparent;
+	right: auto;
+	left: 1em;
+	margin: 0;
+}
+.ui-tooltip-pointer-align-middle  {
+	border-bottom:7px dotted transparent;
+	border-top:7px dotted transparent;
+	margin-top:-7px;
+	top:50%;
+}
+.ui-tooltip-pointer-align-right{	
+	border-left: 17px dotted transparent; 
+	border-right: 0;
+	right: 1em;
+	left: auto;
+	margin: 0;
+}
+.ui-tooltip-pointer-align-top  {
+	border-top: 0; 
+	border-bottom: 17px dotted transparent;
+	top: 0.5em;
+}
+.ui-tooltip-pointer-align-center {	
+	background: none;
+	border-left: 7px dotted transparent; 
+	border-right: 7px dotted transparent;
+	right: auto;
+	left: 50%;
+	margin-left: -7px;
+}
+.ui-tooltip-pointer-align-bottom  {
+	border-bottom: 0; 
+	border-top: 17px dotted transparent;
+	bottom: 0.5em;
+}
+.ui-tooltip-pointer-edge-top .ui-tooltip-pointer-inner {
+	border-bottom: 10px solid #fff;
+	top: 4px;
+}
+.ui-tooltip-pointer-edge-right .ui-tooltip-pointer-inner {
+	border-right-width:0;
+	border-left: 10px solid #fff;
+	right: 4px;
+}
+.ui-tooltip-pointer-edge-bottom .ui-tooltip-pointer-inner{
+	border-bottom-width: 0;
+	border-top: 10px solid #fff;
+	bottom:	auto;
+	top: -14px;
+}
+.ui-tooltip-pointer-edge-left .ui-tooltip-pointer-inner{
+	border-left-width:0;
+	border-right: 10px solid #fff;
+	right: -14px;
+}
+.ui-tooltip-pointer-align-center .ui-tooltip-pointer-inner{
+	border-left: 5px dotted transparent; 
+	border-right: 5px dotted transparent;
+	left: -5px;
+}
+.ui-tooltip-pointer-align-left .ui-tooltip-pointer-inner {
+	border-left: 0; 
+	border-right: 12px dotted transparent;
+	left: 2px;
+}
+.ui-tooltip-pointer-align-right .ui-tooltip-pointer-inner {
+	border-left: 12px dotted transparent; 
+	border-right: 0;
+	right: 2px;
+	left: auto;
+}
+.ui-tooltip-pointer-align-middle .ui-tooltip-pointer-inner{
+	border-top: 5px dotted transparent; 
+	border-bottom: 5px dotted transparent;
+	top: -5px;
+}
+.ui-tooltip-pointer-align-top .ui-tooltip-pointer-inner {
+	border-top: 0; 
+	border-bottom: 12px dotted transparent;
+	top: 2px;
+}
+.ui-tooltip-pointer-align-bottom .ui-tooltip-pointer-inner {
+	border-bottom: 0;
+	border-top: 12px dotted transparent; 
+	bottom: 2px;
+}
+
+
+

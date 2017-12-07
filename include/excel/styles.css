@@ -1,0 +1,87 @@
+/* CSS Document */
+/* Main defined */
+body{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000;
+	margin:0;
+	background:none;
+}
+.mainContainer{
+	width:800px;
+	margin:0 auto;
+	background:#fff;
+}
+thead th{
+	border-bottom:2px solid #000;
+	color:#494949;
+	font-weight:bold;
+}
+tbody {
+	border:1px solid #000
+}
+table, table td, table th{
+	border:1px solid #000
+}
+
+tr.hight_light{
+	background:#FFBD6F none repeat scroll 0 0;
+}
+
+table.printing, table.printing td, table.printing tbody{
+	border:0;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Arial;
+	font-style:italic;
+	padding:0;
+	margin:0;
+}
+td, th {padding:0.3em 0.5em;}
+table {
+	width:100%;
+	border-collapse:collapse;
+}
+.print_title, .print_title_time{
+	font-size:20px;
+	font-weight:bold;
+	line-height:25px;
+}
+.print_title_time{font-size:11px}
+
+@font-face
+{font-family:Verdana;
+panose-1:2 11 6 4 3 5 4 4 2 4;
+mso-font-charset:0;
+mso-generic-font-family:swiss;
+mso-font-pitch:variable;
+mso-font-signature:536871559 0 0 0 415 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+{mso-style-parent:"";
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:7.5pt;
+    mso-bidi-font-size:8.0pt;
+font-family:"Verdana";
+mso-fareast-font-family:"Verdana";}
+p.small
+{mso-style-parent:"";
+margin:0in;
+margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:1.0pt;
+    mso-bidi-font-size:1.0pt;
+font-family:"Verdana";
+mso-fareast-font-family:"Verdana";}
+@page Section1
+{size:8.5in 11.0in;
+margin:1.0in 1.25in 1.0in 1.25in;
+mso-header-margin:.5in;
+mso-footer-margin:.5in;
+mso-paper-source:0;
+mso-data-placement:same-cell;
+}
+div.Section1
+{page:Section1;}

@@ -1,0 +1,21 @@
+/*!
+ * jQuery UI Tabs 1.8.22
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+
+ */
+.ui-tabs { position: relative; overflow: hidden; zoom: 1; margin-bottom: 15px; background: none !important; border-width: 0 1px 1px 1px !important; border-style: solid; }
+.ui-tabs .ui-tabs-nav { margin: 0; padding: 0; border: 0; }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; margin: 0px; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: 16px 20px; text-decoration: none; display: block; font-size: 15px; }
+.ui-tabs .ui-tabs-nav li a i { margin-right: 4px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected, .ui-tabs .ui-tabs-nav li.ui-state-active { margin-bottom: 0; border-top-width: 3px; border-style: solid; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a, .ui-tabs .ui-tabs-nav li.ui-state-active a { padding-top: 13px; cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+.ui-tabs.ui-widget-content, .ui-tabs .ui-widget-content {}

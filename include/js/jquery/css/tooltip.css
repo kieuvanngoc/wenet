@@ -1,0 +1,34 @@
+@charset "utf-8";
+#dhtmltooltip
+{
+	border: #666 2px solid;
+	padding: 5px;
+	font-size: 10pt;
+	z-index: 100;
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	left: -10px; top:0px;
+	visibility: hidden;
+	font-family: Arial;
+	position: absolute;
+	background-color: lightyellow;
+	width: 300px;
+	text-align:left;
+	color: #fff;
+}
+#dhtmlpointer
+{
+	z-index: 101;
+	left: -10px; top:0px;
+	visibility: hidden;
+	position: absolute;
+}
+
+hr { 
+	margin:3px 0px;
+	*margin: -4px 0px;
+	padding: 0px;
+	border: 1px dotted #D9DFEE;
+	height:1px;
+}
