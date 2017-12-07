@@ -1,6 +1,4 @@
-.svn
 .idea
-.settings
 templates_c
 templates/header_global.tpl
 include/database_config.php
