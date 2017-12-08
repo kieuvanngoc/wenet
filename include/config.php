@@ -20,6 +20,7 @@ $database_username = 'root';
 $database_password = '';
 $database_name = 'wenet_crm';
 
+/*-- CACHE --*/
 define('MEMCACHE_ON', 0);
 define('REDIS_ON', 0);
 define('PAGE_CACHE', 0); // Cache cho smarty
