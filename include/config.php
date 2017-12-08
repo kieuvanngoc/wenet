@@ -28,6 +28,7 @@ define('CACHE_ON', 0);
 define('CACHE_DB', 0);
 define('CACHE_SERVER_NAME', 'localhost/wenet/');
 
+/*-- DEBUG --*/
 define('SETTING_DEBUG_PAPGE', 1);
 define('REWRITE_ON', 1);
 
